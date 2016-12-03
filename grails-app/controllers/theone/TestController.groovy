@@ -2,5 +2,7 @@ package theone
 
 class TestController {
 
-    def index() { }
+    def index() {
+        render 'hello world'
+    }
 }
