@@ -1,8 +1,10 @@
 package theone
 
+import grails.converters.JSON
+
 class TestController {
 
     def index() {
-        render 'hello world'
+        render 'hello worldS' as JSON
     }
 }
